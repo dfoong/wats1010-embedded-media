@@ -3,8 +3,245 @@
  * Embedded Media Assignment
  *
  * Site Styles
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Eczar', serif;
  *****************************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Eczar');
 
- html {
-     color: green;
+html {
+   padding: 0px;
  }
+
+body {
+  margin: 0px;
+}
+
+#header-white {
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+#header-white h2 {
+	background: #FFF;
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	margin-top: -1px;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	color: #16a7e0;
+	
+}
+
+nav .main-nav1 a, a:visited {
+	position: relative;
+	top: -70px; 
+	font-family: 'Berkshire Swash', cursive;
+	text-align: left;
+	text-decoration: none;
+	padding: 0px 15px 0px 15px;
+	color: #0D5F7F; 
+	
+}
+
+nav .main-nav1 a:hover, a:active {
+	color: #FFF;
+	background: #FA8334;
+	padding: 15px 15px 16px 15px;
+}
+
+nav ul, li {
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+header video {
+	margin-top: 51px;
+	width: 100%;
+	z-index: 1;
+}
+
+#box2 {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	color: #1394C6;
+	padding: 30px 1px 110px 1px;
+}
+
+
+#social {
+	background: #8C2155;
+	position: absolute;
+	top: 730px;
+	right: 0;
+	width: 40px;
+	padding: 10px 20px 30px 30px;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: left;
+	transition: width 2s;
+	color: #FFF;
+	
+}
+
+#social a, a:active {
+	text-decoration: none;
+	color: #FFF;
+	padding: 0px 8px 0px 8px;
+}
+
+#social:hover {
+	width: 250px;
+	color: #FFF;
+}
+
+#social ul, li {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+#watch {
+	background: #1394C6;
+	display: block;
+  margin: 0 auto;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	color: #FFF;
+	padding: 20px 0px 20px 0px;
+	
+}
+
+#watch video {
+	width: 65%;
+	display: block;
+  margin: 0 auto;
+	border: solid #FFF 8px;
+}
+
+#watch .download-button {
+	color: #FFF;
+	background-color: #FE9000;
+	text-decoration: none;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 0px 8px 0px 8px;
+
+}
+
+#watch .download-button:hover, .download-button:active {
+	color: #FFF;
+	background-color: #72BF00;
+	text-decoration: none;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 0px 8px 0px 8px;
+}
+
+#listen {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	color: #1394C6;
+	padding: 30px 1px 110px 1px;
+	
+}
+
+#listen audio {
+	border: solid #C6C9C1 2px;
+}
+
+#listen .download-button {
+	color: #FFF;
+	background-color: #FE9000;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#listen .download-button:hover, .download-button:active {
+	color: #FFF;
+	background-color: #72BF00;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#about {
+	
+	height: 620px;
+	background: #C12238;
+	color: #FFF;
+	font-family:'Eczar', serif;
+	text-decoration: none;
+	padding: 10px 0px 10px 30px;
+}
+
+#about .lead {
+	font-family:'Eczar', serif;
+	font-size: 2em;
+	color: #FFF;
+	padding: 10px;
+}
+
+#about a, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+#about a:hover, a:active {
+	text-decoration: double underline;
+}
+
+#about .weybec-people {
+	padding-right: 30px;
+}
+
+#about .weybec-people img {
+	width: 150px;
+	padding: 10px;
+}
+
+#about .weybec-people a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.weybec-people li {
+	display: inline;
+	float: right;
+	text-align: center;
+	list-style-type: none;
+
+}
+
+footer {
+	text-align: center;
+	font-family: 'Eczar', serif;
+	color: #1394C6;
+}
+
+
+nav .main-nav2 a, a:visited {
+
+	text-decoration: none;
+	color: #0D5F7F; 
+	border: solid #C7E2E8 1px;
+	padding: 10px 15px 10px 15px;
+	
+}
+
+nav .main-nav2 a:hover, a:active {
+	color: #FFF;
+	background: #FA8334;
+	padding: 10px 15px 10px 15px;
+}
+
+nav ul, li {
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+}
